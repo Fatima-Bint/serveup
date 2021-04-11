@@ -1,6 +1,6 @@
 const router = require('express').Router()
 
-const {signup, login, getUserDetails} = require('../controllers/auth')
+const {signup, login} = require('../controllers/auth')
 
 
 // Route for signup
@@ -10,7 +10,7 @@ router.post("/api/auth/signup", signup)
 router.post("/api/auth/login", login)
 
 // Route for getting user details 
-router.get("/api/auth/:id", getUserDetails)
+// router.get("/api/auth/:id", getUserDetails)
 
 
 

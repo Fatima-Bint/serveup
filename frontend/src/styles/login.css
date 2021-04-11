@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* .login{
+      display: flex;
+      align-items: center;
+      background-color: red;
+  } */
+  
+  .form-container {
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+    background-color: #f1f2f3;
+  }
+  
+  .form-form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    width: 456px;
+    padding: 50px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  
